@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AERONIX TOOLS | Herramientas Profesionales en Colombia</title>
+    <!-- Tailwind CSS para diseño moderno -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            yellow: '#FDB813', // Amarillo de alta visibilidad tipo DeWalt
+                            yellowDark: '#D49608',
+                            dark: '#121212',   // Fondo oscuro premium
+                            gray: '#1E1E1E',   // Tarjetas y secciones
+                            lightGray: '#2D2D2D',
+                            textLight: '#F3F4F6'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts para una tipografía de impacto industrial -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;0,900;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #121212;
+    color: #F3F4F6;
+}
+
+/* IMÁGENES DE PRODUCTOS */
+#productos img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+
+/* IMAGEN PRINCIPAL */
+#hero-main-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+        }
+    </style>
+</head>
+<body class="overflow-x-hidden">
+
+    <!-- BARRA DE ANUNCIO DE ALTA URGENCIA -->
+    <div class="bg-brand-yellow text-brand-dark font-black text-center py-2 px-4 text-xs md:text-sm tracking-widest uppercase flex items-center justify-center gap-2 animate-pulse">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 animate-bounce" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" />
+        </svg>
+        <span>¡ENVÍO GRATIS A TODA COLOMBIA + PAGO CONTRAENTREGA! PAGA AL RECIBIR EN CASA</span>
+    </div>
+
+    <!-- NAVBAR PREMIUM -->
+    <header class="bg-brand-dark/95 border-b border-brand-gray/50 sticky top-0 z-50 backdrop-blur-md">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <!-- Logo -->
+            <div class="flex items-center gap-2">
+                <span class="bg-brand-yellow text-brand-dark font-black px-3 py-1 rounded-sm text-xl italic tracking-tighter">AERONIX</span>
+                <span class="text-white font-bold tracking-widest text-xs uppercase hidden sm:inline">TOOLS</span>
+            </div>
+            <!-- Badges de confianza rápidos -->
+            <div class="hidden md:flex items-center gap-6 text-xs text-gray-300">
+                <div class="flex items-center gap-1.5">
+                    <span class="text-brand-yellow font-bold">✓</span> Envío Gratis
+                </div>
+                <div class="flex items-center gap-1.5">
+                    <span class="text-brand-yellow font-bold">✓</span> Pago Contraentrega
+                </div>
+                <div class="flex items-center gap-1.5">
+                    <span class="text-brand-yellow font-bold">✓</span> Garantía de Fábrica
+                </div>
+            </div>
+            <!-- Botón CTA en header -->
+            <div>
+                <a href="#ordenar" class="bg-brand-yellow hover:bg-brand-yellowDark text-brand-dark font-extrabold px-4 py-2 rounded text-xs md:text-sm transition-all duration-300 shadow-[0_0_15px_rgba(253,184,19,0.3)]">
+                    COMPRAR AHORA
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION DE ALTO IMPACTO CON SELECTOR DE PRODUCTOS -->
+    <section class="relative py-12 md:py-20 overflow-hidden bg-gradient-to-b from-brand-dark via-brand-gray to-brand-dark">
+        <!-- Fondo Decorativo Sutil -->
+        <div class="absolute inset-0 opacity-5 pointer-events-none">
+            <div class="absolute top-1/4 left-1/10 w-96 h-96 bg-brand-yellow rounded-full filter blur-3xl"></div>
+            <div class="absolute bottom-1/4 right-1/10 w-96 h-96 bg-brand-yellow rounded-full filter blur-3xl"></div>
+        </div>
+
+        <div class="max-w-6xl mx-auto px-4 relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+            
+            <!-- Izquierda: Textos y Promesas -->
+            <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                <div class="inline-flex items-center gap-2 bg-brand-yellow/10 border border-brand-yellow/30 text-brand-yellow px-3 py-1.5 rounded-full text-xs font-bold tracking-wide uppercase">
+                    <span class="flex h-2 w-2 relative">
+                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-yellow opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-2 w-2 bg-brand-yellow"></span>
+                    </span>
+                    OFERTA DE LANZAMIENTO - STOCK LIMITADO
+                </div>
+                
+                <h1 class="text-4xl sm:text-5xl md:text-6xl font-black tracking-tight leading-tight uppercase">
+                    EQUIPOS DE <br class="hidden md:block">
+                    <span class="text-brand-yellow text-stroke">ALTO PODER 68V</span>
+                </h1>
+                
+                <p class="text-gray-300 text-base md:text-lg max-w-xl mx-auto lg:mx-0">
+                    Equípate con la potencia industrial de <strong class="text-white">AERONIX TOOLS</strong>. Las mejores herramientas con envíos 100% gratuitos y pago seguro al recibir en tu puerta. ¡Calidad y garantía de fábrica!
+                </p>
+
+                <!-- PESTAÑAS INTERACTIVAS PARA VER PRODUCTOS EN EL HERO -->
+                <div class="bg-brand-dark p-1.5 rounded-xl border border-brand-lightGray max-w-lg mx-auto lg:mx-0 grid grid-cols-2 gap-1">
+                    <button id="tab-drill" onclick="switchHeroProduct('drill')" class="py-3 px-2 rounded-lg text-xs md:text-sm font-black uppercase transition-all duration-300 bg-brand-yellow text-brand-dark shadow-md">
+                        🛠️ Taladro 68V
+                    </button>
+                    <button id="tab-combo" onclick="switchHeroProduct('combo')" class="py-3 px-2 rounded-lg text-xs md:text-sm font-black uppercase text-gray-400 hover:text-white transition-all duration-300">
+                        ⚙️ Combo Completo
+                    </button>
+                </div>
+
+                <!-- CARACTERÍSTICAS DEL PRODUCTO EN HERO (CAMBIA DINÁMICAMENTE) -->
+                <div class="bg-brand-gray/50 border border-brand-lightGray rounded-xl p-4 max-w-lg mx-auto lg:mx-0 text-left">
+                    <div id="hero-drill-desc" class="space-y-2">
+                        <span class="text-xs font-bold text-brand-yellow uppercase tracking-wider">Características del Taladro Inalámbrico:</span>
+                        <p class="text-xs text-gray-300">Taladro Atornillador de 68V Max con mandril de 3/8", doble batería de iones de litio de alta duración, maletín reforzado y kit completo con más de 30 accesorios premium listos para trabajo pesado.</p>
+                        <div class="flex gap-4 text-[11px] text-gray-400 font-bold pt-1">
+                            <span>📦 Doble Batería</span>
+                            <span>•</span>
+                            <span>⚡ Torque Ajustable</span>
+                            <span>•</span>
+                            <span>💡 Luz LED</span>
+                        </div>
+                    </div>
+                    <div id="hero-combo-desc" class="space-y-2 hidden">
+                        <span class="text-xs font-bold text-brand-yellow uppercase tracking-wider">Características del Combo Industrial DeWalt:</span>
+                        <p class="text-xs text-gray-300">Combo Súper Industrial de alto rendimiento. Incluye un Taladro Percutor/Impacto de alta resistencia y una Pulidora / Esmeriladora Angular robusta. Ideal para cortar, desbastar, pulir y perforar.</p>
+                        <div class="flex gap-4 text-[11px] text-gray-400 font-bold pt-1">
+                            <span>🔥 Trabajo Pesado</span>
+                            <span>•</span>
+                            <span>💿 Disco Estándar</span>
+                            <span>•</span>
+                            <span>💼 Estuche Completo</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Temporizador e Indicador de Stock Ficticio para inducir Urgencia -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-lg mx-auto lg:mx-0 text-left">
+                    <!-- Temporizador -->
+                    <div class="bg-brand-gray border border-yellow-500/20 rounded-xl p-3 shadow-lg flex flex-col justify-center">
+                        <p class="text-[10px] uppercase text-brand-yellow font-bold tracking-wider mb-1">⚡ LA OFERTA EXPIRA EN:</p>
+                        <div class="flex gap-2 text-center">
+                            <span id="hours" class="text-xl font-black text-white">02</span>
+                            <span class="text-gray-500">:</span>
+                            <span id="minutes" class="text-xl font-black text-white">45</span>
+                            <span class="text-gray-500">:</span>
+                            <span id="seconds" class="text-xl font-black text-white">30</span>
+                        </div>
+                    </div>
+                    <!-- Stock alert -->
+                    <div class="bg-brand-gray border border-red-500/20 rounded-xl p-3 shadow-lg flex flex-col justify-center">
+                        <p class="text-[10px] uppercase text-red-500 font-bold tracking-wider mb-1">⚠️ STOCK CRÍTICO EN BODEGA:</p>
+                        <div class="flex items-center gap-2">
+                            <span class="h-2 w-2 rounded-full bg-red-500 animate-ping"></span>
+                            <span class="text-xs font-bold text-white"><span id="stock-count">9</span> Unidades de esta oferta</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Derecha: Imagen destacada interactiva unificada sin superposiciones -->
+            <div class="lg:col-span-5 relative">
+                <div class="relative bg-gradient-to-tr from-brand-gray to-brand-lightGray border-2 border-brand-yellow/30 p-2 rounded-2xl overflow-hidden shadow-[0_0_50px_rgba(253,184,19,0.15)]">
+                    
+                    <!-- Badge Flotante de Descuento -->
+                    <div class="absolute top-4 right-4 bg-red-600 text-white font-black text-xs px-3 py-1.5 rounded-full shadow-lg z-20 animate-bounce">
+                        ¡MÁS DE 45% DTO!
+                    </div>
+
+                    <!-- Contenedor Unificado de Imagen Principal -->
+                    <div class="relative h-96 w-full rounded-xl overflow-hidden flex items-center justify-center bg-brand-dark">
+                        <!-- Única imagen que se actualiza dinámicamente -->
+                        <img id="hero-main-img" src="image_0043c1.png" alt="Taladro Inalámbrico 68V" class="object-cover h-full w-full z-10 transition-all duration-300">
+                        
+                        <!-- Único cuadro de texto de respaldo (fallback) que se actualiza dinámicamente -->
+                        <div id="hero-fallback" class="hidden absolute inset-0 flex flex-col items-center justify-center p-6 text-center bg-brand-dark/95 z-20">
+                            <span id="hero-fallback-icon" class="text-brand-yellow text-5xl mb-4">🛠️</span>
+                            <h3 id="hero-fallback-title" class="text-xl font-bold text-white mb-2">Taladro Inalámbrico 68V</h3>
+                            <p id="hero-fallback-desc" class="text-xs text-gray-400 max-w-xs">Kit Completo con Maletín, Accesorios y 2 Baterías</p>
+                            <span id="hero-fallback-price" class="mt-4 text-brand-yellow font-black text-2xl">$210.000 COP</span>
+                        </div>
+                    </div>
+
+                    <!-- Datos dinámicos del precio abajo de la imagen -->
+                    <div class="p-4 bg-brand-gray text-center border-t border-brand-lightGray">
+                        <span id="hero-price-old" class="text-xs text-gray-400 line-through block">$390.000 COP</span>
+                        <span id="hero-price-new" class="text-3xl font-black text-brand-yellow block mb-2">$210.000 COP</span>
+                        <a id="hero-btn-action" href="#ordenar" onclick="selectProduct('taladro')" class="inline-block w-full bg-brand-yellow hover:bg-brand-yellowDark text-brand-dark font-black py-3 rounded-xl text-xs tracking-widest transition-all uppercase shadow-md">
+                            ¡ORDENAR ESTE AHORA!
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE LOGOS DE TRANSPORTADORAS DE CONFIANZA EN COLOMBIA -->
+    <section class="py-6 bg-brand-dark border-b border-brand-lightGray/20">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <p class="text-[10px] text-gray-400 font-extrabold uppercase tracking-widest mb-4">DESPACHAMOS SEGURO CON LAS MEJORES EMPRESAS DE COLOMBIA</p>
+            <div class="flex flex-wrap justify-center items-center gap-6 md:gap-12 opacity-80">
+                <span class="text-white font-extrabold italic text-sm md:text-base border border-brand-lightGray px-3 py-1.5 rounded bg-brand-gray">🚚 SERVIENTREGA</span>
+                <span class="text-white font-extrabold italic text-sm md:text-base border border-brand-lightGray px-3 py-1.5 rounded bg-brand-gray">🚚 ENVÍA</span>
+                <span class="text-white font-extrabold italic text-sm md:text-base border border-brand-lightGray px-3 py-1.5 rounded bg-brand-gray">🚚 INTERRAPIDÍSIMO</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE SELLOS DE CONFIANZA Y SEGURIDAD -->
+    <section class="py-10 bg-brand-gray border-b border-brand-lightGray/30">
+        <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="flex items-center gap-4 bg-brand-dark/50 p-4 rounded-xl border border-brand-lightGray/40">
+                <div class="text-brand-yellow text-3xl">🛡️</div>
+                <div>
+                    <h4 class="font-bold text-sm text-white uppercase tracking-wider">COMPRA SEGURA</h4>
+                    <p class="text-[11px] text-gray-400">Pagas al recibir tu producto</p>
+                </div>
+            </div>
+            <div class="flex items-center gap-4 bg-brand-dark/50 p-4 rounded-xl border border-brand-lightGray/40">
+                <div class="text-brand-yellow text-3xl">📦</div>
+                <div>
+                    <h4 class="font-bold text-sm text-white uppercase tracking-wider">KIT COMPLETO</h4>
+                    <p class="text-[11px] text-gray-400">Todos los accesorios incluidos</p>
+                </div>
+            </div>
+            <div class="flex items-center gap-4 bg-brand-dark/50 p-4 rounded-xl border border-brand-lightGray/40">
+                <div class="text-brand-yellow text-3xl">⭐</div>
+                <div>
+                    <h4 class="font-bold text-sm text-white uppercase tracking-wider">GARANTÍA DIRECTA</h4>
+                    <p class="text-[11px] text-gray-400">Soporte directo con nosotros</p>
+                </div>
+            </div>
+            <div class="flex items-center gap-4 bg-brand-dark/50 p-4 rounded-xl border border-brand-lightGray/40">
+                <div class="text-brand-yellow text-3xl">🚀</div>
+                <div>
+                    <h4 class="font-bold text-sm text-white uppercase tracking-wider">ENVÍO PRIORITARIO</h4>
+                    <p class="text-[11px] text-gray-400">Despacho nacional rápido</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE PRODUCTOS / NUESTRAS OFERTAS -->
+    <section class="py-16 bg-brand-dark" id="productos">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center max-w-xl mx-auto mb-12">
+                <h2 class="text-3xl md:text-4xl font-black text-white uppercase tracking-tight">
+                    NUESTROS COMBOS <span class="text-brand-yellow">MÁS VENDIDOS</span>
+                </h2>
+                <div class="h-1 w-20 bg-brand-yellow mx-auto mt-4 rounded-full"></div>
+                <p class="text-gray-400 mt-4 text-sm">
+                    Selecciona el combo ideal para tu trabajo. Calidad superior respaldada por la garantía directa de Aeronix Tools.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                
+                <!-- PRODUCTO 1: TALADRO INALÁMBRICO CON ACCESORIOS (Usando image_0043c1.png) -->
+                <div class="bg-brand-gray rounded-2xl border border-brand-lightGray hover:border-brand-yellow/30 transition-all duration-300 flex flex-col overflow-hidden shadow-lg group">
+                    <div class="p-4 bg-brand-lightGray flex-1">
+                        <div class="relative h-72 bg-brand-dark rounded-xl overflow-hidden flex items-center justify-center">
+                            <img src="image_0043c1.png" alt="Taladro Inalámbrico Aeronix 68V" class="object-cover h-full w-full group-hover:scale-105 transition-transform duration-500" onerror="this.onerror=null; this.classList.add('hidden'); document.getElementById('prod1-fallback').classList.remove('hidden');">
+                            
+                            <!-- Fallback -->
+                            <div id="prod1-fallback" class="hidden absolute inset-0 flex flex-col items-center justify-center p-4 text-center bg-brand-dark">
+                                <span class="text-brand-yellow text-4xl mb-2">⚡</span>
+                                <h4 class="font-bold text-white text-sm">Taladro Inalámbrico Aeronix 68V</h4>
+                                <p class="text-[10px] text-gray-400">Kit Profesional Maletín Completo</p>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-4 space-y-2">
+                            <span class="inline-block bg-brand-yellow text-brand-dark text-[10px] font-black uppercase px-2 py-0.5 rounded">¡EL MÁS VENDIDO!</span>
+                            <h3 class="text-xl font-bold text-white uppercase">Taladro Inalámbrico 68V Aeronix</h3>
+                            <p class="text-xs text-gray-400 leading-relaxed">
+                                Potente, versátil y súper completo. Ideal para cualquier tipo de perforación y atornillado en madera, metal y drywall. Incluye maletín profesional rígido, doble batería de iones de litio y un juego de más de 30 accesorios premium.
+                            </p>
+                            
+                            <!-- Características en bullet points -->
+                            <ul class="text-xs text-gray-300 space-y-1.5 pt-2">
+                                <li class="flex items-center gap-2">
+                                    <span class="text-brand-yellow">✓</span> Doble Batería de Iones de Litio (Carga rápida)
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <span class="text-brand-yellow">✓</span> Kit completo de brocas, destornilladores y copas
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <span class="text-brand-yellow">✓</span> Luz LED incorporada para áreas oscuras
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <span class="text-brand-yellow">✓</span> Mandril metálico de ajuste rápido Autolock
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="p-4 bg-brand-lightGray border-t border-brand-gray text-center space-y-3">
+                        <div class="flex items-center justify-center gap-3">
+                            <span class="text-sm text-gray-400 line-through">$390.000</span>
+                            <span class="text-2xl font-black text-brand-yellow">$210.000 COP</span>
+                        </div>
+                        <a href="#ordenar" onclick="selectProduct('taladro')" class="block w-full bg-brand-yellow hover:bg-brand-yellowDark text-brand-dark font-black py-3 rounded-lg text-sm tracking-wider transition-colors shadow-md">
+                            SELECCIONAR Y PEDIR
+                        </a>
+                    </div>
+                </div>
+
+                <!-- PRODUCTO 2: COMBO TALADRO DE IMPACTO + PULIDORA (Usando image_0043fa.jpg) -->
+                <div class="bg-brand-gray rounded-2xl border border-brand-lightGray hover:border-brand-yellow/30 transition-all duration-300 flex flex-col overflow-hidden shadow-lg group">
+                    <div class="p-4 bg-brand-lightGray flex-1">
+                        <div class="relative h-72 bg-brand-dark rounded-xl overflow-hidden flex items-center justify-center">
+                            <img src="image_0043fa.jpg" alt="Combo Pulidora y Taladro de Impacto Aeronix" class="object-cover h-full w-full group-hover:scale-105 transition-transform duration-500" onerror="this.onerror=null; this.classList.add('hidden'); document.getElementById('prod2-fallback').classList.remove('hidden');">
+                            
+                            <!-- Fallback -->
+                            <div id="prod2-fallback" class="hidden absolute inset-0 flex flex-col items-center justify-center p-4 text-center bg-brand-dark">
+                                <span class="text-brand-yellow text-4xl mb-2">⚙️</span>
+                                <h4 class="font-bold text-white text-sm">Combo Pulidora + Taladro de Impacto</h4>
+                                <p class="text-[10px] text-gray-400">Kit de Trabajo Pesado</p>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-4 space-y-2">
+                            <span class="inline-block bg-brand-yellow text-brand-dark text-[10px] font-black uppercase px-2 py-0.5 rounded">COMBO PREMIUM IMPERIAL</span>
+                            <h3 class="text-xl font-bold text-white uppercase">Combo Industrial Pulidora + Taladro</h3>
+                            <p class="text-xs text-gray-400 leading-relaxed">
+                                El kit definitivo para los proyectos más exigentes. Incluye un Taladro de Impacto robusto de alta resistencia y una Pulidora Angular de alto rendimiento. Perfecto para cortar, desbastar, pulir y perforar en mampostería.
+                            </p>
+                            
+                            <!-- Características en bullet points -->
+                            <ul class="text-xs text-gray-300 space-y-1.5 pt-2">
+                                <li class="flex items-center gap-2">
+                                    <span class="text-brand-yellow">✓</span> Pulidora Angular de alto torque con mango ergonómico
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <span class="text-brand-yellow">✓</span> Taladro de Impacto con medidor de profundidad
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <span class="text-brand-yellow">✓</span> Estuche de alta resistencia para transporte seguro
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <span class="text-brand-yellow">✓</span> Accesorios y herramientas de ajuste incluidos
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="p-4 bg-brand-lightGray border-t border-brand-gray text-center space-y-3">
+                        <div class="flex items-center justify-center gap-3">
+                            <span class="text-sm text-gray-400 line-through">$480.000</span>
+                            <span class="text-2xl font-black text-brand-yellow">$270.000 COP</span>
+                        </div>
+                        <a href="#ordenar" onclick="selectProduct('combo')" class="block w-full bg-brand-yellow hover:bg-brand-yellowDark text-brand-dark font-black py-3 rounded-lg text-sm tracking-wider transition-colors shadow-md">
+                            SELECCIONAR Y PEDIR
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN "¿QUÉ INCLUYE LA CAJA?" (ALTAMENTE DETALLADO) -->
+    <section class="py-16 bg-brand-gray border-t border-brand-lightGray">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center max-w-xl mx-auto mb-12">
+                <h3 class="text-2xl md:text-3xl font-black text-white uppercase tracking-tight">
+                    ¿QUÉ VIENE EN <span class="text-brand-yellow">TU PAQUETE</span>?
+                </h3>
+                <p class="text-gray-400 mt-2 text-xs">Revisa el contenido exacto para que compres con total confianza</p>
+                <div class="h-1 w-12 bg-brand-yellow mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <!-- Tabs/Columnas del Desglose -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <!-- Caja 1 -->
+                <div class="bg-brand-dark p-6 rounded-2xl border border-brand-lightGray/60 relative">
+                    <span class="absolute -top-3 left-6 bg-brand-yellow text-brand-dark font-black text-[9px] px-3 py-1 rounded-full uppercase tracking-wider">Detalle del Kit</span>
+                    <h4 class="text-lg font-bold text-white mb-4 uppercase flex items-center gap-2">
+                        <span class="text-brand-yellow">🛠️</span> Kit Taladro Inalámbrico 68V
+                    </h4>
+                    <div class="grid grid-cols-2 gap-3 text-xs text-gray-300">
+                        <div class="bg-brand-gray p-3 rounded-xl flex flex-col items-center text-center">
+                            <span class="text-2xl mb-1">🔫</span>
+                            <span class="font-bold text-white">1 Taladro Aeronix</span>
+                            <span class="text-[10px] text-gray-500">Motor de alto torque</span>
+                        </div>
+                        <div class="bg-brand-gray p-3 rounded-xl flex flex-col items-center text-center">
+                            <span class="text-2xl mb-1">🔋</span>
+                            <span class="font-bold text-white">2 Baterías de Litio</span>
+                            <span class="text-[10px] text-gray-500">68V de larga duración</span>
+                        </div>
+                        <div class="bg-brand-gray p-3 rounded-xl flex flex-col items-center text-center">
+                            <span class="text-2xl mb-1">🔌</span>
+                            <span class="font-bold text-white">1 Cargador Rápido</span>
+                            <span class="text-[10px] text-gray-500">Carga en 60 mins</span>
+                        </div>
+                        <div class="bg-brand-gray p-3 rounded-xl flex flex-col items-center text-center">
+                            <span class="text-2xl mb-1">💼</span>
+                            <span class="font-bold text-white">1 Maletín Rígido</span>
+                            <span class="text-[10px] text-gray-500">Protección antichoque</span>
+                        </div>
+                    </div>
+                    <div class="mt-4 bg-brand-gray p-3 rounded-xl text-center text-[11px] text-gray-400">
+                        <span class="font-bold text-brand-yellow">🚀 +30 Accesorios de regalo:</span> brocas para metal/madera, copas hexagonales, puntas de destornillador y acople flexible.
+                    </div>
+                </div>
+
+                <!-- Caja 2 -->
+                <div class="bg-brand-dark p-6 rounded-2xl border border-brand-lightGray/60 relative">
+                    <span class="absolute -top-3 left-6 bg-brand-yellow text-brand-dark font-black text-[9px] px-3 py-1 rounded-full uppercase tracking-wider">Detalle del Kit</span>
+                    <h4 class="text-lg font-bold text-white mb-4 uppercase flex items-center gap-2">
+                        <span class="text-brand-yellow">⚙️</span> Combo Industrial Pulidora+Taladro
+                    </h4>
+                    <div class="grid grid-cols-2 gap-3 text-xs text-gray-300">
+                        <div class="bg-brand-gray p-3 rounded-xl flex flex-col items-center text-center">
+                            <span class="text-2xl mb-1">🔫</span>
+                            <span class="font-bold text-white">1 Taladro Impacto</span>
+                            <span class="text-[10px] text-gray-500">Perforador extra pesado</span>
+                        </div>
+                        <div class="bg-brand-gray p-3 rounded-xl flex flex-col items-center text-center">
+                            <span class="text-2xl mb-1">💿</span>
+                            <span class="font-bold text-white">1 Pulidora Angular</span>
+                            <span class="text-[10px] text-gray-500">Corte y esmerilado</span>
+                        </div>
+                        <div class="bg-brand-gray p-3 rounded-xl flex flex-col items-center text-center">
+                            <span class="text-2xl mb-1">🔋</span>
+                            <span class="font-bold text-white">2 Baterías Reforzadas</span>
+                            <span class="text-[10px] text-gray-500">Compartidas entre equipos</span>
+                        </div>
+                        <div class="bg-brand-gray p-3 rounded-xl flex flex-col items-center text-center">
+                            <span class="text-2xl mb-1">💼</span>
+                            <span class="font-bold text-white">1 Maletín Especial</span>
+                            <span class="text-[10px] text-gray-500">Organizador reforzado</span>
+                        </div>
+                    </div>
+                    <div class="mt-4 bg-brand-gray p-3 rounded-xl text-center text-[11px] text-gray-400">
+                        <span class="font-bold text-brand-yellow">🔧 Accesorios incluidos:</span> guarda de protección, mango auxiliar para pulidora, llave de ajuste, baterías, cargador y juego de puntas básicas.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BANNER DE SEGURIDAD EXPLICADO PASO A PASO -->
+    <section class="py-12 bg-brand-gray border-y border-brand-lightGray">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <h3 class="text-2xl font-black text-white uppercase mb-10 tracking-wider">
+                ¿CÓMO FUNCIONA NUESTRO <span class="text-brand-yellow">PAGO CONTRAENTREGA</span>?
+            </h3>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Paso 1 -->
+                <div class="flex flex-col items-center space-y-3">
+                    <div class="w-16 h-16 bg-brand-yellow text-brand-dark rounded-full flex items-center justify-center font-black text-2xl shadow-[0_0_20px_rgba(253,184,19,0.2)]">
+                        1
+                    </div>
+                    <h4 class="font-extrabold text-white text-lg">Haces el pedido</h4>
+                    <p class="text-xs text-gray-400 max-w-xs">
+                        Llenas el formulario de abajo con tus datos de entrega. No necesitas tarjeta de crédito ni adelantos.
+                    </p>
+                </div>
+                <!-- Paso 2 -->
+                <div class="flex flex-col items-center space-y-3">
+                    <div class="w-16 h-16 bg-brand-yellow text-brand-dark rounded-full flex items-center justify-center font-black text-2xl shadow-[0_0_20px_rgba(253,184,19,0.2)]">
+                        2
+                    </div>
+                    <h4 class="font-extrabold text-white text-lg">Despachamos Gratis</h4>
+                    <p class="text-xs text-gray-400 max-w-xs">
+                        Enviamos tu pedido de inmediato a través de Servientrega, Envía o Interrapidisimo sin costo adicional de envío.
+                    </p>
+                </div>
+                <!-- Paso 3 -->
+                <div class="flex flex-col items-center space-y-3">
+                    <div class="w-16 h-16 bg-brand-yellow text-brand-dark rounded-full flex items-center justify-center font-black text-2xl shadow-[0_0_20px_rgba(253,184,19,0.2)]">
+                        3
+                    </div>
+                    <h4 class="font-extrabold text-white text-lg">Pagas al Recibir</h4>
+                    <p class="text-xs text-gray-400 max-w-xs">
+                        El transportador llegará a tu domicilio. Revisas el empaque y le pagas el valor en efectivo directamente a él. ¡100% Seguro!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FORMULARIO DE PEDIDOS INTERACTIVO (WhatsApp Funnel) -->
+    <section class="py-16 bg-brand-dark" id="ordenar">
+        <div class="max-w-3xl mx-auto px-4">
+            <div class="bg-brand-gray border-2 border-brand-yellow rounded-3xl overflow-hidden shadow-2xl">
+                
+                <!-- Encabezado del Formulario -->
+                <div class="bg-brand-yellow text-brand-dark p-6 text-center">
+                    <h3 class="text-2xl font-black uppercase tracking-tight">FORMULARIO DE PEDIDO RÁPIDO</h3>
+                    <p class="text-xs font-bold mt-1 opacity-90">Completa tus datos para enviártelo hoy mismo</p>
+                </div>
+
+                <form id="orderForm" onsubmit="sendOrder(event)" class="p-6 sm:p-10 space-y-6">
+                    
+                    <!-- 1. Selección de Producto -->
+                    <div>
+                        <label class="block text-xs font-black uppercase tracking-wider text-brand-yellow mb-2">1. Selecciona tu Producto / Combo:</label>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                            <label class="relative flex items-center justify-between p-4 bg-brand-lightGray border-2 border-transparent rounded-xl cursor-pointer hover:bg-brand-lightGray/80 transition-all group" id="opt-taladro">
+                                <input type="radio" name="producto" value="Taladro Inalámbrico 68V" checked onchange="updateTotal()" class="absolute opacity-0">
+                                <div class="flex flex-col">
+                                    <span class="font-bold text-sm text-white">Taladro Inalámbrico 68V</span>
+                                    <span class="text-xs text-brand-yellow font-black mt-1">$210.000 COP</span>
+                                </div>
+                                <div class="w-5 h-5 rounded-full border-2 border-brand-yellow flex items-center justify-center">
+                                    <div class="w-2.5 h-2.5 rounded-full bg-brand-yellow select-dot"></div>
+                                </div>
+                            </label>
+                            
+                            <label class="relative flex items-center justify-between p-4 bg-brand-lightGray border-2 border-transparent rounded-xl cursor-pointer hover:bg-brand-lightGray/80 transition-all group" id="opt-combo">
+                                <input type="radio" name="producto" value="Combo Pulidora + Taladro" onchange="updateTotal()" class="absolute opacity-0">
+                                <div class="flex flex-col">
+                                    <span class="font-bold text-sm text-white">Combo Pulidora + Taladro</span>
+                                    <span class="text-xs text-brand-yellow font-black mt-1">$270.000 COP</span>
+                                </div>
+                                <div class="w-5 h-5 rounded-full border-2 border-gray-500 flex items-center justify-center">
+                                    <div class="w-2.5 h-2.5 rounded-full bg-transparent select-dot"></div>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- 2. Cantidad -->
+                    <div>
+                        <label class="block text-xs font-black uppercase tracking-wider text-brand-yellow mb-2">Cantidad:</label>
+                        <div class="flex items-center gap-3">
+                            <button type="button" onclick="adjustQty(-1)" class="w-10 h-10 bg-brand-lightGray rounded-lg flex items-center justify-center font-bold text-white hover:bg-brand-yellow hover:text-brand-dark transition-colors">-</button>
+                            <input type="number" id="cantidad" value="1" min="1" readonly class="w-16 h-10 bg-brand-lightGray border border-brand-lightGray rounded-lg text-center font-black text-white text-lg">
+                            <button type="button" onclick="adjustQty(1)" class="w-10 h-10 bg-brand-lightGray rounded-lg flex items-center justify-center font-bold text-white hover:bg-brand-yellow hover:text-brand-dark transition-colors">+</button>
+                        </div>
+                    </div>
+
+                    <hr class="border-brand-lightGray">
+
+                    <!-- 3. Datos Personales -->
+                    <div class="space-y-4">
+                        <label class="block text-xs font-black uppercase tracking-wider text-brand-yellow">2. Datos de Envío y Contacto:</label>
+                        
+                        <div>
+                            <input type="text" id="nombre" required placeholder="Nombre y Apellidos completos" class="w-full bg-brand-lightGray border border-brand-lightGray focus:border-brand-yellow text-white rounded-xl p-3.5 text-sm outline-none transition-all placeholder:text-gray-500">
+                        </div>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div>
+                                <input type="tel" id="telefono" required placeholder="Número de celular de contacto" class="w-full bg-brand-lightGray border border-brand-lightGray focus:border-brand-yellow text-white rounded-xl p-3.5 text-sm outline-none transition-all placeholder:text-gray-500">
+                            </div>
+                            <div>
+                                <input type="text" id="direccion" required placeholder="Dirección de entrega (Ej: Calle 10 # 4-20)" class="w-full bg-brand-lightGray border border-brand-lightGray focus:border-brand-yellow text-white rounded-xl p-3.5 text-sm outline-none transition-all placeholder:text-gray-500">
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div>
+                                <input type="text" id="departamento" required placeholder="Departamento" class="w-full bg-brand-lightGray border border-brand-lightGray focus:border-brand-yellow text-white rounded-xl p-3.5 text-sm outline-none transition-all placeholder:text-gray-500">
+                            </div>
+                            <div>
+                                <input type="text" id="ciudad" required placeholder="Ciudad / Municipio" class="w-full bg-brand-lightGray border border-brand-lightGray focus:border-brand-yellow text-white rounded-xl p-3.5 text-sm outline-none transition-all placeholder:text-gray-500">
+                            </div>
+                        </div>
+
+                        <div>
+                            <textarea id="indicaciones" rows="2" placeholder="Indicaciones adicionales (Ej: Recibe en portería, casa esquinera, etc.)" class="w-full bg-brand-lightGray border border-brand-lightGray focus:border-brand-yellow text-white rounded-xl p-3.5 text-sm outline-none transition-all placeholder:text-gray-500 resize-none"></textarea>
+                        </div>
+                    </div>
+
+                    <!-- Cuadro resumen de precio -->
+                    <div class="bg-brand-lightGray/60 rounded-xl p-4 flex justify-between items-center border border-brand-lightGray">
+                        <div>
+                            <span class="text-xs text-gray-400 block">Total a pagar en casa:</span>
+                            <span class="text-[10px] text-green-500 font-bold uppercase tracking-wider">Envío totalmente gratis</span>
+                        </div>
+                        <div class="text-right">
+                            <span id="totalPrice" class="text-2xl font-black text-brand-yellow block">$210.000 COP</span>
+                        </div>
+                    </div>
+
+                    <!-- Botón de Envío -->
+                    <button type="submit" class="w-full bg-brand-yellow hover:bg-brand-yellowDark text-brand-dark font-black py-4 rounded-xl text-base tracking-widest transition-all duration-300 shadow-[0_0_20px_rgba(253,184,19,0.4)] uppercase flex items-center justify-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.244 8.477 3.513 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.457L0 24zm6.59-4.846c1.6.95 3.182 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.023-5.101-2.885-6.97-1.861-1.868-4.335-2.897-6.97-2.899-5.437 0-9.862 4.372-9.866 9.802-.001 1.762.485 3.48 1.408 5.014l-.995 3.637 3.737-.971zm11.218-7.254c-.302-.15-.1.302-.1.302-3.136-1.543-3.136-1.543-.1-1.543a.52.52 0 0 1 .385.18c.118.13.454.443.555.646.101.202.101.38.05.48-.05.101-.202.152-.504.002zm-5.467-1.162s-.433-.193-.561-.25c-.126-.058-.252-.087-.378-.087-.215 0-.414.088-.553.245-.25.284-.664.912-.664.912s-.11.163-.036.331c.074.168.328.536.684.887.355.351.78.601.994.673.214.072.338.016.42-.047 0 0 .584-.683.69-.824.084-.112.169-.112.28-.057.112.056.708.351.708.351s.14.056.2.168c.056.112.056.646-.224.927-.281.28-1.123.548-1.544.59-.42.041-1.402-.28-2.611-1.359-1.082-.966-1.745-2.227-1.957-2.592-.212-.365-.023-.562.158-.742.162-.161.365-.426.548-.64.181-.214.242-.365.364-.607.122-.241.06-.454-.03-.664-.09-.211-.803-1.934-.985-2.373-.18-.432-.379-.373-.521-.38l-.443-.008c-.152 0-.403.056-.613.284-.21.228-.802.784-.802 1.91 0 1.127.821 2.215.935 2.37 1.144 1.503 2.185 2.485 3.52 3.013.845.334 1.503.353 2.031.275.59-.087 1.812-.741 2.064-1.46.252-.718.252-1.332.176-1.46-.076-.128-.278-.204-.579-.355z"/>
+                        </svg>
+                        PEDIR POR CONTRAENTREGA (WHATSAPP)
+                    </button>
+                    
+                    <p class="text-center text-[10px] text-gray-500">
+                        Al enviar el formulario se abrirá tu WhatsApp para confirmar tu pedido directamente con un asesor de Aeronix Tools. No tienes que pagar nada por adelantado.
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- RESEÑAS DE CLIENTES REALES -->
+    <section class="py-16 bg-brand-gray border-t border-brand-lightGray">
+        <div class="max-w-4xl mx-auto px-4">
+            <h3 class="text-2xl md:text-3xl font-black text-center text-white uppercase mb-12">
+                LO QUE DICEN NUESTROS <span class="text-brand-yellow">CLIENTES</span>
+            </h3>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                
+                <!-- Review 1 -->
+                <div class="bg-brand-dark p-6 rounded-2xl border border-brand-lightGray space-y-4">
+                    <div class="flex justify-between items-center">
+                        <div class="flex items-center gap-3">
+                            <div class="w-10 h-10 rounded-full bg-brand-yellow text-brand-dark font-black flex items-center justify-center">
+                                JM
+                            </div>
+                            <div>
+                                <h4 class="font-extrabold text-white text-sm">Jorge Martínez</h4>
+                                <span class="text-[10px] text-gray-500">Bogotá D.C. - Compró Taladro 68V</span>
+                            </div>
+                        </div>
+                        <div class="text-brand-yellow">⭐⭐⭐⭐•</div>
+                    </div>
+                    <p class="text-xs text-gray-300 italic">
+                        "Excelente taladro, lo usé para armar unas repisas en metal y madera y pasó todo de maravilla. El maletín trae muchas cosas útiles. Pagué cuando el repartidor llegó a mi casa, muy confiable."
+                    </p>
+                </div>
+
+                <!-- Review 2 -->
+                <div class="bg-brand-dark p-6 rounded-2xl border border-brand-lightGray space-y-4">
+                    <div class="flex justify-between items-center">
+                        <div class="flex items-center gap-3">
+                            <div class="w-10 h-10 rounded-full bg-brand-yellow text-brand-dark font-black flex items-center justify-center">
+                                AC
+                            </div>
+                            <div>
+                                <h4 class="font-extrabold text-white text-sm">Andrés Cardona</h4>
+                                <span class="text-[10px] text-gray-500">Medellín - Compró Combo Pulidora+Taladro</span>
+                            </div>
+                        </div>
+                        <div class="text-brand-yellow">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <p class="text-xs text-gray-300 italic">
+                        "El combo de pulidora y taladro es robusto. Para mí que trabajo en talleres y construcción me ha venido perfecto. Me llegó en dos días y todo bien sellado. Recomiendo totalmente a Aeronix Tools."
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- PREGUNTAS FRECUENTES -->
+    <section class="py-16 bg-brand-dark">
+        <div class="max-w-3xl mx-auto px-4">
+            <h3 class="text-2xl font-black text-center text-white uppercase mb-10 tracking-wide">
+                PREGUNTAS <span class="text-brand-yellow">FRECUENTES</span>
+            </h3>
+
+            <div class="space-y-4">
+                
+                <!-- Q1 -->
+                <div class="bg-brand-gray border border-brand-lightGray rounded-xl overflow-hidden">
+                    <button class="w-full p-4 text-left font-bold text-sm text-white flex justify-between items-center hover:bg-brand-lightGray/50 transition-colors" onclick="toggleFaq(this)">
+                        <span>¿Cuánto cuesta el envío a mi ciudad?</span>
+                        <span class="text-brand-yellow text-lg">+</span>
+                    </button>
+                    <div class="faq-answer hidden p-4 pt-0 text-xs text-gray-400 border-t border-brand-lightGray bg-brand-dark/30">
+                        El envío es 100% gratuito a cualquier municipio, pueblo o ciudad de Colombia. No hay costos ocultos. El precio de la página es el precio final que pagarás.
+                    </div>
+                </div>
+
+                <!-- Q2 -->
+                <div class="bg-brand-gray border border-brand-lightGray rounded-xl overflow-hidden">
+                    <button class="w-full p-4 text-left font-bold text-sm text-white flex justify-between items-center hover:bg-brand-lightGray/50 transition-colors" onclick="toggleFaq(this)">
+                        <span>¿Cómo es la forma de pago?</span>
+                        <span class="text-brand-yellow text-lg">+</span>
+                    </button>
+                    <div class="faq-answer hidden p-4 pt-0 text-xs text-gray-400 border-t border-brand-lightGray bg-brand-dark/30">
+                        Manejamos la modalidad de pago CONTRAENTREGA. Pagas el total del producto en efectivo directamente al transportador cuando recibas el paquete en tus manos. Es el método más seguro.
+                    </div>
+                </div>
+
+                <!-- Q3 -->
+                <div class="bg-brand-gray border border-brand-lightGray rounded-xl overflow-hidden">
+                    <button class="w-full p-4 text-left font-bold text-sm text-white flex justify-between items-center hover:bg-brand-lightGray/50 transition-colors" onclick="toggleFaq(this)">
+                        <span>¿Tienen garantía de fábrica?</span>
+                        <span class="text-brand-yellow text-lg">+</span>
+                    </button>
+                    <div class="faq-answer hidden p-4 pt-0 text-xs text-gray-400 border-t border-brand-lightGray bg-brand-dark/30">
+                        Sí, todos nuestros productos de la marca Aeronix Tools cuentan con garantía de satisfacción por cualquier defecto de fabricación. Si tienes algún inconveniente, nos escribes al WhatsApp de soporte para gestionarlo de inmediato.
+                    </div>
+                </div>
+
+                <!-- Q4 -->
+                <div class="bg-brand-gray border border-brand-lightGray rounded-xl overflow-hidden">
+                    <button class="w-full p-4 text-left font-bold text-sm text-white flex justify-between items-center hover:bg-brand-lightGray/50 transition-colors" onclick="toggleFaq(this)">
+                        <span>¿Cuánto demora en llegar el pedido?</span>
+                        <span class="text-brand-yellow text-lg">+</span>
+                    </button>
+                    <div class="faq-answer hidden p-4 pt-0 text-xs text-gray-400 border-t border-brand-lightGray bg-brand-dark/30">
+                        Los tiempos de entrega varían según el destino. Para ciudades principales como Bogotá, Medellín, Cali y Barranquilla toma de 1 a 3 días hábiles. Para otros municipios del país puede tardar entre 2 y 5 días hábiles.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER PREMIUM -->
+    <footer class="bg-brand-dark border-t border-brand-lightGray py-12 text-center text-xs text-gray-500">
+        <div class="max-w-4xl mx-auto px-4 space-y-6">
+            <!-- Logo footer -->
+            <div class="flex items-center justify-center gap-2">
+                <span class="bg-brand-yellow text-brand-dark font-black px-3 py-1 rounded-sm text-lg italic tracking-tighter">AERONIX</span>
+                <span class="text-white font-bold tracking-widest text-xs uppercase">TOOLS</span>
+            </div>
+            <p class="max-w-md mx-auto">
+                Especialistas en la importación y distribución directa de herramientas profesionales y de alto desempeño en toda Colombia.
+            </p>
+            <div class="flex justify-center gap-6 text-gray-400 text-[10px] uppercase font-bold">
+                <span>Envío 100% Gratis</span>
+                <span>•</span>
+                <span>Pago Contraentrega</span>
+                <span>•</span>
+                <span>Compra Protegida</span>
+            </div>
+            <p class="pt-4 border-t border-brand-lightGray/50 text-[10px]">
+                &copy; 2026 AERONIX TOOLS COLOMBIA. Todos los derechos reservados.
+            </p>
+        </div>
+    </footer>
+
+    <!-- NOTIFICACIÓN DE COMPRA EN TIEMPO REAL (PRUEBA SOCIAL DINÁMICA) -->
+    <div id="toast" class="fixed bottom-4 left-4 right-4 sm:right-auto sm:max-w-sm bg-brand-gray border-2 border-brand-yellow text-white rounded-2xl p-4 shadow-2xl z-50 transform translate-y-32 transition-transform duration-500 flex items-center gap-4">
+        <div class="w-12 h-12 bg-brand-yellow/10 rounded-xl flex items-center justify-center text-brand-yellow text-2xl flex-shrink-0">
+            🔥
+        </div>
+        <div>
+            <p id="toast-text" class="text-xs font-bold text-gray-200">Alguien acaba de comprar</p>
+            <p id="toast-subtext" class="text-[10px] text-brand-yellow font-black uppercase mt-0.5">Hace un momento</p>
+        </div>
+        <button onclick="hideToast()" class="text-gray-400 hover:text-white ml-auto text-lg font-bold">×</button>
+    </div>
+
+    <!-- BOTÓN FLOTANTE DE WHATSAPP PARA DUDAS + ESTADO EN LÍNEA -->
+    <div class="fixed bottom-4 right-4 z-40 flex flex-col items-end gap-1">
+        <!-- Globito indicador de activo -->
+        <span class="bg-green-600 text-[10px] text-white font-bold py-1 px-2.5 rounded-full shadow-md animate-bounce flex items-center gap-1">
+            <span class="w-1.5 h-1.5 rounded-full bg-white animate-ping"></span>
+            Asesores en línea
+        </span>
+        <a href="https://api.whatsapp.com/send?phone=573222495608&text=Hola%20Aeronix%20Tools!%20Tengo%20una%20pregunta%20sobre%20las%20herramientas..." target="_blank" class="bg-green-500 hover:bg-green-600 text-white p-3.5 rounded-full shadow-[0_4px_20px_rgba(34,197,94,0.4)] transition-transform hover:scale-110 flex items-center justify-center gap-2" title="Chatea con un asesor">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.244 8.477 3.513 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.457L0 24zm6.59-4.846c1.6.95 3.182 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.023-5.101-2.885-6.97-1.861-1.868-4.335-2.897-6.97-2.899-5.437 0-9.862 4.372-9.866 9.802-.001 1.762.485 3.48 1.408 5.014l-.995 3.637 3.737-.971zm11.218-7.254c-.302-.15-.1.302-.1.302-3.136-1.543-3.136-1.543-.1-1.543a.52.52 0 0 1 .385.18c.118.13.454.443.555.646.101.202.101.38.05.48-.05.101-.202.152-.504.002zm-5.467-1.162s-.433-.193-.561-.25c-.126-.058-.252-.087-.378-.087-.215 0-.414.088-.553.245-.25.284-.664.912-.664.912s-.11.163-.036.331c.074.168.328.536.684.887.355.351.78.601.994.673.214.072.338.016.42-.047 0 0 .584-.683.69-.824.084-.112.169-.112.28-.057.112.056.708.351.708.351s.14.056.2.168c.056.112.056.646-.224.927-.281.28-1.123.548-1.544.59-.42.041-1.402-.28-2.611-1.359-1.082-.966-1.745-2.227-1.957-2.592-.212-.365-.023-.562.158-.742.162-.161.365-.426.548-.64.181-.214.242-.365.364-.607.122-.241.06-.454-.03-.664-.09-.211-.803-1.934-.985-2.373-.18-.432-.379-.373-.521-.38l-.443-.008c-.152 0-.403.056-.613.284-.21.228-.802.784-.802 1.91 0 1.127.821 2.215.935 2.37 1.144 1.503 2.185 2.485 3.52 3.013.845.334 1.503.353 2.031.275.59-.087 1.812-.741 2.064-1.46.252-.718.252-1.332.176-1.46-.076-.128-.278-.204-.579-.355z"/>
+            </svg>
+        </a>
+    </div>
+
+    <!-- SCRIPT DE LÓGICA INTERACTIVA -->
+    <script>
+        // Precios definidos
+        const prices = {
+            "Taladro Inalámbrico 68V": 210000,
+            "Combo Pulidora + Taladro": 270000
+        };
+
+        // Capturar elementos de la imagen de Hero y su fallback
+        const mainHeroImg = document.getElementById('hero-main-img');
+        const heroFallback = document.getElementById('hero-fallback');
+
+        // Escuchadores de carga para evitar que se superpongan los fallbacks
+        mainHeroImg.onload = function() {
+            this.classList.remove('hidden');
+            heroFallback.classList.add('hidden');
+        };
+
+        mainHeroImg.onerror = function() {
+            this.classList.add('hidden');
+            heroFallback.classList.remove('hidden');
+        };
+
+        // Función dinámica para alternar el producto del Hero (Pestañas del inicio)
+        function switchHeroProduct(productType) {
+            const btnDrill = document.getElementById('tab-drill');
+            const btnCombo = document.getElementById('tab-combo');
+            
+            const descDrill = document.getElementById('hero-drill-desc');
+            const descCombo = document.getElementById('hero-combo-desc');
+            
+            const priceOld = document.getElementById('hero-price-old');
+            const priceNew = document.getElementById('hero-price-new');
+            const btnAction = document.getElementById('hero-btn-action');
+
+            if (productType === 'drill') {
+                // Activar Pestaña Taladro (Estilos)
+                btnDrill.className = "py-3 px-2 rounded-lg text-xs md:text-sm font-black uppercase transition-all duration-300 bg-brand-yellow text-brand-dark shadow-md";
+                btnCombo.className = "py-3 px-2 rounded-lg text-xs md:text-sm font-black uppercase text-gray-400 hover:text-white transition-all duration-300";
+                
+                // Mostrar Descripción del Taladro
+                descDrill.classList.remove('hidden');
+                descCombo.classList.add('hidden');
+                
+                // Actualizar precios de la tarjeta
+                priceOld.innerText = "$390.000 COP";
+                priceNew.innerText = "$210.000 COP";
+                
+                // Actualizar contenido de la Imagen y su Fallback de seguridad
+                mainHeroImg.src = "image_0043c1.png";
+                mainHeroImg.alt = "Taladro Inalámbrico 68V";
+
+                document.getElementById('hero-fallback-icon').innerText = "🛠️";
+                document.getElementById('hero-fallback-title').innerText = "Taladro Inalámbrico 68V";
+                document.getElementById('hero-fallback-desc').innerText = "Kit Completo con Maletín, Accesorios y 2 Baterías";
+                document.getElementById('hero-fallback-price').innerText = "$210.000 COP";
+                
+                // Configurar acción del botón
+                btnAction.setAttribute('onclick', "selectProduct('taladro')");
+                
+            } else if (productType === 'combo') {
+                // Activar Pestaña Combo (Estilos)
+                btnCombo.className = "py-3 px-2 rounded-lg text-xs md:text-sm font-black uppercase transition-all duration-300 bg-brand-yellow text-brand-dark shadow-md";
+                btnDrill.className = "py-3 px-2 rounded-lg text-xs md:text-sm font-black uppercase text-gray-400 hover:text-white transition-all duration-300";
+                
+                // Mostrar Descripción del Combo
+                descCombo.classList.remove('hidden');
+                descDrill.classList.add('hidden');
+                
+                // Actualizar precios de la tarjeta
+                priceOld.innerText = "$480.000 COP";
+                priceNew.innerText = "$270.000 COP";
+                
+                // Actualizar contenido de la Imagen y su Fallback de seguridad
+                mainHeroImg.src = "image_0043fa.jpg";
+                mainHeroImg.alt = "Combo Pulidora + Taladro";
+
+                document.getElementById('hero-fallback-icon').innerText = "⚙️";
+                document.getElementById('hero-fallback-title').innerText = "Combo Pulidora + Taladro";
+                document.getElementById('hero-fallback-desc').innerText = "La herramienta perfecta para cortar y perforar";
+                document.getElementById('hero-fallback-price').innerText = "$270.000 COP";
+                
+                // Configurar acción del botón
+                btnAction.setAttribute('onclick', "selectProduct('combo')");
+            }
+        }
+
+        // Función para cambiar la selección de productos por clic en tarjetas o botones
+        function selectProduct(type) {
+            const radTaladro = document.querySelector('input[value="Taladro Inalámbrico 68V"]');
+            const radCombo = document.querySelector('input[value="Combo Pulidora + Taladro"]');
+            
+            if (type === 'taladro') {
+                radTaladro.checked = true;
+            } else if (type === 'combo') {
+                radCombo.checked = true;
+            }
+            updateTotal();
+        }
+
+        // Ajustar cantidad de producto
+        function adjustQty(amount) {
+            const qtyInput = document.getElementById('cantidad');
+            let currentVal = parseInt(qtyInput.value);
+            currentVal += amount;
+            if (currentVal < 1) currentVal = 1;
+            qtyInput.value = currentVal;
+            updateTotal();
+        }
+
+        // Actualizar UI del total y estilos del radio button seleccionado
+        function updateTotal() {
+            const selectedProduct = document.querySelector('input[name="producto"]:checked').value;
+            const qty = parseInt(document.getElementById('cantidad').value);
+            const price = prices[selectedProduct];
+            const total = price * qty;
+            
+            // Actualizar total en pantalla con formato de moneda colombiana
+            document.getElementById('totalPrice').innerText = `$${total.toLocaleString('es-CO')} COP`;
+
+            // Estilos visuales a los radio buttons seleccionados
+            const optTaladro = document.getElementById('opt-taladro');
+            const optCombo = document.getElementById('opt-combo');
+            
+            if (selectedProduct === "Taladro Inalámbrico 68V") {
+                optTaladro.classList.add('border-brand-yellow', 'bg-brand-lightGray/90');
+                optCombo.classList.remove('border-brand-yellow', 'bg-brand-lightGray/90');
+                optTaladro.querySelector('.select-dot').classList.remove('bg-transparent');
+                optTaladro.querySelector('.select-dot').classList.add('bg-brand-yellow');
+                optCombo.querySelector('.select-dot').classList.remove('bg-brand-yellow');
+                optCombo.querySelector('.select-dot').classList.add('bg-transparent');
+            } else {
+                optCombo.classList.add('border-brand-yellow', 'bg-brand-lightGray/90');
+                optTaladro.classList.remove('border-brand-yellow', 'bg-brand-lightGray/90');
+                optCombo.querySelector('.select-dot').classList.remove('bg-transparent');
+                optCombo.querySelector('.select-dot').classList.add('bg-brand-yellow');
+                optTaladro.querySelector('.select-dot').classList.remove('bg-brand-yellow');
+                optTaladro.querySelector('.select-dot').classList.add('bg-transparent');
+            }
+        }
+
+        // Ejecutar primer diseño al cargar página
+        updateTotal();
+
+        // Enviar pedido y formatear mensaje de WhatsApp
+        function sendOrder(event) {
+            event.preventDefault();
+
+            // Capturar datos del formulario
+            const producto = document.querySelector('input[name="producto"]:checked').value;
+            const cantidad = document.getElementById('cantidad').value;
+            const nombre = document.getElementById('nombre').value;
+            const telefono = document.getElementById('telefono').value;
+            const direccion = document.getElementById('direccion').value;
+            const departamento = document.getElementById('departamento').value;
+            const ciudad = document.getElementById('ciudad').value;
+            const indicaciones = document.getElementById('indicaciones').value || "Ninguna";
+            
+            // Cálculo del total
+            const price = prices[producto];
+            const total = price * parseInt(cantidad);
+            const totalFormatted = `$${total.toLocaleString('es-CO')} COP`;
+
+            // Construir el mensaje de WhatsApp
+            const mensaje = `*NUEVO PEDIDO DESDE LA WEB - AERONIX TOOLS* 🛠️\n\n` +
+                            `📦 *Producto:* ${producto}\n` +
+                            `🔢 *Cantidad:* ${cantidad}\n` +
+                            `💵 *Total a Pagar:* ${totalFormatted} *(CONTRAENTREGA)*\n\n` +
+                            `👤 *Cliente:* ${nombre}\n` +
+                            `📞 *Celular:* ${telefono}\n` +
+                            `📍 *Dirección:* ${direccion}\n` +
+                            `🏙️ *Ciudad:* ${ciudad}\n` +
+                            `🗺️ *Departamento:* ${departamento}\n` +
+                            `✏️ *Indicaciones:* ${indicaciones}\n\n` +
+                            `_¡Hola Aeronix Tools! Deseo confirmar la compra de este producto con envío gratis y pago contraentrega._`;
+
+            // Tu número de WhatsApp real de ventas
+            const whatsappNumber = "573222495608"; 
+            const url = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${encodeURIComponent(mensaje)}`;
+
+            // Redirigir al usuario al WhatsApp
+            window.open(url, '_blank');
+        }
+
+        // Acordeón de FAQs
+        function toggleFaq(button) {
+            const answer = button.nextElementSibling;
+            const symbol = button.querySelector('span:last-child');
+            
+            if (answer.classList.contains('hidden')) {
+                answer.classList.remove('hidden');
+                symbol.innerText = '-';
+            } else {
+                answer.classList.add('hidden');
+                symbol.innerText = '+';
+            }
+        }
+
+        // Temporizador Urgente (Cuenta regresiva estática de ejemplo)
+        let hours = 2;
+        let minutes = 45;
+        let seconds = 30;
+
+        function updateCountdown() {
+            seconds--;
+            if (seconds < 0) {
+                seconds = 59;
+                minutes--;
+                if (minutes < 0) {
+                    minutes = 59;
+                    hours--;
+                    if (hours < 0) {
+                        // Reiniciar para mantener la urgencia siempre activa
+                        hours = 2;
+                        minutes = 15;
+                        seconds = 45;
+                    }
+                }
+            }
+
+            document.getElementById('hours').innerText = hours.toString().padStart(2, '0');
+            document.getElementById('minutes').innerText = minutes.toString().padStart(2, '0');
+            document.getElementById('seconds').innerText = seconds.toString().padStart(2, '0');
+        }
+        setInterval(updateCountdown, 1000);
+
+        // Disminución de stock ficticia cada cierto tiempo para disparar gatillo mental
+        let currentStock = 9;
+        function updateStock() {
+            if (currentStock > 3) {
+                currentStock -= Math.floor(Math.random() * 2);
+                document.getElementById('stock-count').innerText = currentStock;
+            }
+        }
+        setInterval(updateStock, 35000);
+
+        // Notificaciones Flotantes Ficticias para Prueba Social
+        const nombres = ["Carlos", "María", "Nelson", "Yair", "Alejandro", "Diana", "Felipe", "Sandra", "Wilmer"];
+        const ciudades = ["Bogotá", "Medellín", "Cali", "Barranquilla", "Bucaramanga", "Pereira", "Ibagué", "Manizales", "Cúcuta"];
+        const productosComprados = ["Taladro Inalámbrico 68V", "Combo Pulidora + Taladro"];
+
+        function showNotification() {
+            const nombreRandom = nombres[Math.floor(Math.random() * nombres.length)];
+            const ciudadRandom = ciudades[Math.floor(Math.random() * ciudades.length)];
+            const prodRandom = productosComprados[Math.floor(Math.random() * productosComprados.length)];
+            
+            document.getElementById('toast-text').innerHTML = `<strong class="text-brand-yellow">${nombreRandom}</strong> de <strong class="text-white">${ciudadRandom}</strong> acaba de pedir un *${prodRandom}*`;
+            document.getElementById('toast-subtext').innerText = `Hace unos segundos • Pago Contraentrega`;
+
+            const toast = document.getElementById('toast');
+            toast.classList.remove('translate-y-32');
+            toast.classList.add('translate-y-0');
+
+            setTimeout(() => {
+                hideToast();
+            }, 5000);
+        }
+
+        function hideToast() {
+            const toast = document.getElementById('toast');
+            toast.classList.remove('translate-y-0');
+            toast.classList.add('translate-y-32');
+        }
+
+        // Mostrar notificaciones cada 15 segundos después de los primeros 5 segundos
+        setTimeout(() => {
+            showNotification();
+            setInterval(showNotification, 18000);
+        }, 5000);
+    </script>
+</body>
+</html>
